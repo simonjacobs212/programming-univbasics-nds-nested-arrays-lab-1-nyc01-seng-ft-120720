@@ -35,7 +35,7 @@ end
 # However, this time, sort each internal array alphabetically by the first character
 
 def matrix_lookup(matrix, row, column)
-  [matrix[row][column]
+  matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
