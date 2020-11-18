@@ -1,6 +1,6 @@
 # Examples inspired by U. S. National Organic Standards
 
-ORGANIC_PRODUCE = [
+organic_produce = [
   "Strawberries",
   "Potatoes",
   "Grapes",
