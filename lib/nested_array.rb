@@ -17,7 +17,7 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-  storage_room = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+  [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
 end
 
 # Build an array that contains both of the above arrays
@@ -27,7 +27,7 @@ end
 
 
 def sorted_matrix
-  sorted_storage = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
+  [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
 end
 
 # Using Array literal syntax only, build another nested array that
